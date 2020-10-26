@@ -1,7 +1,5 @@
 # Wake
-Wake brings together your ssh config and WakeOnLan together,
-so you can use the same aliases you use to ssh to your machines,
-to wake them up.
+Wake brings together your ssh config and WakeOnLan together, so you can use the same aliases you use to ssh to your machines, to wake them up.
 
 Just as you `ssh mymachine` you can `wake mymachine`.
 

@@ -72,6 +72,10 @@ def wake(alias):
     exit(ExitCode.SUCCESS.value)
 
 
-if __name__ == "__main__":
+def cli():
     arguments = docopt.docopt(__doc__, version=VERSION, help=True)
     wake(arguments["<alias>"])
+
+
+if __name__ == '__main__':
+    cli()
